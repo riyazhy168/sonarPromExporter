@@ -49,6 +49,7 @@ if __name__ == "__main__":
     prom.REGISTRY.register(custom_exporter)
 
     # REGISTRY.unregister(PROCESS_COLLECTOR)
+    # REGISTRY.unregister(Random_COLLECTOR)
     # REGISTRY.unregister(PLATFORM_COLLECTOR)
     # REGISTRY.unregister(REGISTRY._names_to_collectors['python_gc_duration_seconds_sum'])
     # REGISTRY.unregister(REGISTRY._names_to_collectors['python_gc_objects_collected_total'])
